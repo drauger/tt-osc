@@ -66,13 +66,13 @@ uint16_t freq = 500; // стартовое значение частоты в Г
 uint16_t stepFreq = 0;
 
 void startMenu()  {
-//  float VCC=5.0; // напряжение питания
-//  uint16_t d=0; // измеряемое напряжение батареи
-//  uint8_t contrast=52; // контрастность дисплея
+  float VCC=5.0; // напряжение питания
+  uint16_t d=0; // измеряемое напряжение батареи
+  uint8_t contrast=52; // контрастность дисплея
   uint8_t modes = 4;
   
-//  d = analogRead(VBAT)*VCC/1024; // считываем напряжение АКБ при дефолтных настройках АЦП
-//  lcd.setCursor(2, 2); lcd.println(d + "V");
+  d = analogRead(VBAT)*VCC/1024; // считываем напряжение АКБ при дефолтных настройках АЦП
+  lcd.setCursor(2, 2); lcd.println(d + "V");
   
   while(digitalRead(KEY_OK)) {  // цикл, пока не нажали кнопку ОК    
     // опрос кнопок  
