@@ -3,11 +3,17 @@
                          (  @ @  )
   /--------------------oOOo-(_)-oOOo---------------------\
   |                                                      |
+  |           Oscilloscope, DDS Generator and            |
+  |            Transistor Tester for Arduino             |
   |                                                      |
-  |    Transistor Tester for Arduino (version 1.08a)     |
+  |                    version 0.01                      |
+  |            by Drauger (http://arduino.ru)            |
   |                                                      |
-  |  based on code: Karl-Heinz Kubbeler (version 1.08k)  |
-  |                                                      |
+  |  based on code:                                      |
+  |        Karl-Heinz Kubbeler (version 1.08k)           |
+  |        bodriy2014 (http://srukami.inf.ua)            |
+  |        Electronik83 (http://arduino.ru, version 18)  |
+  |        svm  (http://arduino.ru)                      |
   |                                                      |
   |                            Oooo                      |
   \--------------------oooO----(   )---------------------/
